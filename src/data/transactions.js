@@ -1,0 +1,55 @@
+export const CATEGORIES = [
+  'Food & Dining',
+  'Transport',
+  'Housing',
+  'Utilities',
+  'Entertainment',
+  'Healthcare',
+  'Shopping',
+  'Salary',
+  'Freelance',
+  'Investment',
+]
+
+export const CAT_COLORS = [
+  '#c9a84c',
+  '#4a9eff',
+  '#2ecc71',
+  '#a78bfa',
+  '#e74c3c',
+  '#f39c12',
+  '#1abc9c',
+  '#e67e22',
+  '#3498db',
+  '#9b59b6',
+]
+
+export const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+
+export const INITIAL_TRANSACTIONS = [
+  { id: 1,  name: 'Monthly Salary',     date: '2024-06-28', amount: 5500,   category: 'Salary',         type: 'income'  },
+  { id: 2,  name: 'Grocery Store',      date: '2024-06-27', amount: 127.50, category: 'Food & Dining',   type: 'expense' },
+  { id: 3,  name: 'Netflix Subscription', date: '2024-06-26', amount: 15.99, category: 'Entertainment', type: 'expense' },
+  { id: 4,  name: 'Freelance Project',  date: '2024-06-25', amount: 1200,   category: 'Freelance',       type: 'income'  },
+  { id: 5,  name: 'Electric Bill',      date: '2024-06-24', amount: 89.00,  category: 'Utilities',       type: 'expense' },
+  { id: 6,  name: 'Uber Rides',         date: '2024-06-23', amount: 43.20,  category: 'Transport',       type: 'expense' },
+  { id: 7,  name: 'Rent Payment',       date: '2024-06-22', amount: 1400,   category: 'Housing',         type: 'expense' },
+  { id: 8,  name: 'Doctor Visit',       date: '2024-06-21', amount: 60.00,  category: 'Healthcare',      type: 'expense' },
+  { id: 9,  name: 'Amazon Order',       date: '2024-06-20', amount: 87.30,  category: 'Shopping',        type: 'expense' },
+  { id: 10, name: 'Restaurant Dinner',  date: '2024-06-19', amount: 78.50,  category: 'Food & Dining',   type: 'expense' },
+  { id: 11, name: 'Stock Dividend',     date: '2024-06-18', amount: 320,    category: 'Investment',      type: 'income'  },
+  { id: 12, name: 'Gas Station',        date: '2024-06-17', amount: 55.00,  category: 'Transport',       type: 'expense' },
+  { id: 13, name: 'Gym Membership',     date: '2024-06-16', amount: 35.00,  category: 'Healthcare',      type: 'expense' },
+  { id: 14, name: 'Monthly Salary',     date: '2024-05-28', amount: 5500,   category: 'Salary',         type: 'income'  },
+  { id: 15, name: 'Grocery Store',      date: '2024-05-25', amount: 143.00, category: 'Food & Dining',   type: 'expense' },
+  { id: 16, name: 'Spotify',            date: '2024-05-24', amount: 9.99,   category: 'Entertainment',   type: 'expense' },
+  { id: 17, name: 'Freelance Project',  date: '2024-05-20', amount: 800,    category: 'Freelance',       type: 'income'  },
+  { id: 18, name: 'Rent Payment',       date: '2024-05-22', amount: 1400,   category: 'Housing',         type: 'expense' },
+  { id: 19, name: 'Internet Bill',      date: '2024-05-15', amount: 55.00,  category: 'Utilities',       type: 'expense' },
+  { id: 20, name: 'Shopping Mall',      date: '2024-05-10', amount: 210.00, category: 'Shopping',        type: 'expense' },
+  { id: 21, name: 'Monthly Salary',     date: '2024-04-28', amount: 5500,   category: 'Salary',         type: 'income'  },
+  { id: 22, name: 'Freelance Project',  date: '2024-04-15', amount: 950,    category: 'Freelance',       type: 'income'  },
+  { id: 23, name: 'Rent Payment',       date: '2024-04-22', amount: 1400,   category: 'Housing',         type: 'expense' },
+  { id: 24, name: 'Food Delivery',      date: '2024-04-20', amount: 95.00,  category: 'Food & Dining',   type: 'expense' },
+  { id: 25, name: 'Transport Pass',     date: '2024-04-05', amount: 70.00,  category: 'Transport',       type: 'expense' },
+]
